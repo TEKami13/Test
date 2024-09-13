@@ -10,4 +10,10 @@ class TestApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void tulletest() {
+		int a = 1;
+		assert(a == 1);
+	}
+
 }
